@@ -1,0 +1,75 @@
+
+-------------------- WORKING ----------------- // when finished working on task move to DONE
+
+-------------------- TODO -------------------- // when this list is empty release new version
+
+////////// sorted by priority
+
+- Make AdController.cs, connect it to AFK doubling, maybe ad some rewarding for other time. Also connect adViewed event to achievements
+
+- Music, building placement sounds, other sfx - Some SoundController able to control all sounds and music
+
+- Options menu - Audio - music and sfx separately, credits
+				 report bug, maybe Localization (Language), documentation/gamepedia, relaunchable tutorial
+			   - Stuff not yet developed add as greyed out buttons with message "coming soon"
+
+- Sell button animation (maybe particle-like flying money from the button)
+
+--- LONG TERM GOALS
+- Add more crops
+
+-------------------- BUGS -------------------- // this should be empty all the time
+
+--- HIGH PRIORITY
+
+--- LOW PRIORITY
+
+- Replaying tutorial breaks achievements
+
+- !!! COULDNT REPRODUCE - When building lot of buildings (cca 20-30 and more) price is 1999 instead of 2000 (1 lower) IDK why probably caused by float or power system
+
+- Crops are little janky when loading, cant properly trust them so keep an eye on them
+
+-------------------- DONE -------------------- // delete with release of new version
+
+NEW FEATURES
+
+BUGFIXES
+
+----------------------------------------------
+
+
+
+
+
+Can be added after release
+
+- Try to redraw UI to pixelart style
+
+- redraw all sprites to 128x128 (double the resolution)
+
+- Add more crop sprites for animation (at least 5 for 30s+, for shorter 3 is enough)
+
+- Start menu cinematic zooms (instead of moving, slooowly zoom in and then continue moving, zoom cooldown at least 3 moves)
+
+- Something like documentation/gamepedia (ingame wiki site) with information about all blocks, rates, tutorials and game mechanics
+
+- Add option to remove forest (for AD or long wait)
+
+- StartApp animace (logo)
+
+- Cloud saving (using free cloud unity/google or home server)
+
+- When hovering mouse (holding touch) over button, it will show text defining the block (add 10th item to buttonInfo.txt)
+
+- Notifications?
+
+- Visualisation of barn, city and water range when building (when in placeList)
+	-> check when startPlacing for type B || C || W if true show corresponding overlay and update it with each new building
+	   use new tilemap with new overlay values (problem with conflicts, multiple city effects on one tile will not work)
+
+- Some building and crop animations https://youtu.be/65IrtBEZeVs (animation speed: 1 = 1 frame/s | 0.5 = 0.5 frame/s === speed is FPS)
+
+- Coast tiles with 45° angle, the corners look weird sometimes
+
+- Animal tiles (with animation of walking), special buildings for collecting animals? (water+food)
